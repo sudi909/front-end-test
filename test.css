@@ -1,0 +1,157 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+#container-close {
+    color: white;
+    background-color: #333399;
+    width: 20px;
+    height: 20px;
+    border:2px solid white;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Arial;
+    float: right;
+    position: fixed;
+    /* right: 0; */
+    margin-left: 290px;
+    margin-top: -15px;
+}
+#close-left {
+    margin-left:50px;
+    margin-top: -15px;
+}
+#container-right {
+    margin-right:13px;
+}
+.test {
+    background-color: #333399;
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    /* bottom: 0;
+    right: 0; */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 7px;
+}
+.top {
+    top: 0;
+}
+.bottom {
+    bottom: 0;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+.test-title {
+    font-size: 16px;
+    color: white;
+    font-family: Arial;
+}
+.test-thanks {
+    font-size: 24px;
+    color: white;
+    font-family: Arial;
+    margin: 50% 29% 50% 29%;
+}
+.test-slogan {
+    font-size: 10px;
+    color: white;
+    font-family: Arial;
+}
+.test-float {
+    background-color: #333399;
+    width: 300px;
+	height: 30px;
+    position: fixed;
+    /* bottom: 0;
+    right: 0; */
+	border-radius:50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 2px 2px 3px #999;
+    font-size: 24px;
+    color: white;
+    font-family: Arial;
+}
+input[type=text] {
+    width: 290px;
+    height: 40px;
+    background-color: #6666cc;
+    border:none;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+input:first-child[type=text] {
+    margin-top: 5px;
+}
+
+::placeholder  {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+
+select {
+    width: 300px;
+    height: 40px;
+    background-color: #6666cc;
+    border:none;
+    color: white;
+    padding:5px;
+    margin: 0px 0px 5px 0px;
+}
+
+#container-button {
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+    background-color: #33ccff;
+    color: white;
+    font-family: Arial;
+    font-weight: 700;
+}
+.button-slogan {
+    color: white;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0%  { -webkit-transform: rotate(0deg); }
+    100%  { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0%  { transform: rotate(0deg); }
+    100%  { transform: rotate(360deg); }
+}
