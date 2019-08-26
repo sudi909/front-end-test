@@ -35,10 +35,10 @@ function maximised() {
 		<form>
 		`;
 	if (data.name == 1) {
-		div.innerHTML += `<input type="text" name="" placeholder="Your Name">`;
+		div.innerHTML += `<input type="text" name="" placeholder="Your Name" required>`;
 	}
 	if (data.phone == 1) {
-		div.innerHTML += `<input type="text" id="phoneNumber" name="" placeholder="Phone Number">`;
+		div.innerHTML += `<input type="text" id="phoneNumber" name="" placeholder="Phone Number" required>`;
 	}
 	div.innerHTML += `
 			<select>
@@ -46,7 +46,7 @@ function maximised() {
 				<option>I'm interested in Design</option>
 			</select>`;
 	if (data.email == 1) {
-		div.innerHTML += `<input type="text" name="" placeholder="Email">`;
+		div.innerHTML += `<input type="email" name="" placeholder="Email" required>`;
 	}
 	div.innerHTML += `
 		</form>
